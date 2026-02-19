@@ -1,11 +1,12 @@
 // Device-specific BSP DXEs extracted from kebab XBL firmware
+// This includes common SM8250 drivers (which includes DALSys)
 
 // Essential drivers (extracted from XBL)
-FILE DRIVER = 8e9bd160-b184-11df-94e2-0800200c9a66 {
-    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/DALSys/DALSys.depex
-    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/kebab/DALSys/DALSys.efi
-    SECTION UI = "DALSys"
-}
+#FILE DRIVER = 8e9bd160-b184-11df-94e2-0800200c9a66 {
+#    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/DALSys/DALSys.depex
+#    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/kebab/DALSys/DALSys.efi
+#    SECTION UI = "DALSys"
+#}
 
 FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/ButtonsDxe/ButtonsDxe.depex
@@ -24,6 +25,12 @@ FILE DRIVER = 68a710ab-a58d-4c0b-be1e-5f6ee2c36ad8 {
     SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/kebab/OplusProject/OplusProject.efi
     SECTION UI = "OplusProject"
 }
+
+#FILE DRIVER = 0D35CD8E-97EA-4F9A-96AF-0F0D89F76567 {
+#    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/UFSDxe/UFSDxe.depex
+#    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/kebab/UFSDxe/UFSDxe.efi
+#    SECTION UI = "UFSDxe"
+#}
 
 // ACPI Tables - Use SM8250 common tables + minimal kebab DSDT
 FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {   

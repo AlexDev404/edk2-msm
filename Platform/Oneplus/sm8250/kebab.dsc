@@ -29,18 +29,15 @@
   gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"8T"
   gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"kebab"
 
-  # Processor Information (SM8250/Snapdragon 865)
-  gsm8250PkgTokenSpaceGuid.PcdSmbiosProcessorModel|"Snapdragon (TM) 865 @ 2.84 GHz"
-
   # Memory Layout (from uefipil.cfg)
-  gQcomTokenSpaceGuid.PcdAdspMemoryBase|0x8A100000
-  gQcomTokenSpaceGuid.PcdAdspMemorySize|0x01D00000
-  gQcomTokenSpaceGuid.PcdSlpiMemoryBase|0x88C00000  
-  gQcomTokenSpaceGuid.PcdSlpiMemorySize|0x01500000
-  gQcomTokenSpaceGuid.PcdCdspMemoryBase|0x87800000
-  gQcomTokenSpaceGuid.PcdCdspMemorySize|0x01400000
+  #gQcomTokenSpaceGuid.PcdAdspMemoryBase|0x8A100000
+  #gQcomTokenSpaceGuid.PcdAdspMemorySize|0x01D00000
+  #gQcomTokenSpaceGuid.PcdSlpiMemoryBase|0x88C00000  
+  #gQcomTokenSpaceGuid.PcdSlpiMemorySize|0x01500000
+  #gQcomTokenSpaceGuid.PcdCdspMemoryBase|0x87800000
+  #gQcomTokenSpaceGuid.PcdCdspMemorySize|0x01400000
 
   # Charging Configuration (from QcomChargerCfg.cfg)
-  gQcomTokenSpaceGuid.PcdBatteryVoltageMax|4373
-  gQcomTokenSpaceGuid.PcdBatteryChargingCurrent|500
-  gQcomTokenSpaceGuid.PcdBatteryBootThreshold|3400
+  #gQcomTokenSpaceGuid.PcdBatteryVoltageMax|4373
+  #gQcomTokenSpaceGuid.PcdBatteryChargingCurrent|500
+  #gQcomTokenSpaceGuid.PcdBatteryBootThreshold|3400
