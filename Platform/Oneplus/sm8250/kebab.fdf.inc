@@ -26,11 +26,11 @@ FILE DRIVER = 68a710ab-a58d-4c0b-be1e-5f6ee2c36ad8 {
     SECTION UI = "OplusProject"
 }
 
-#FILE DRIVER = 0D35CD8E-97EA-4F9A-96AF-0F0D89F76567 {
-#    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/UFSDxe/UFSDxe.depex
-#    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/kebab/UFSDxe/UFSDxe.efi
-#    SECTION UI = "UFSDxe"
-#}
+FILE DRIVER = 0D35CD8E-97EA-4F9A-96AF-0F0D89F76567 {
+    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/UFSDxe/UFSDxe.depex
+    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/kebab/UFSDxe/UFSDxe.efi
+    SECTION UI = "UFSDxe"
+}
 
 // ACPI Tables - Use SM8250 common tables + minimal kebab DSDT
 FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {   
