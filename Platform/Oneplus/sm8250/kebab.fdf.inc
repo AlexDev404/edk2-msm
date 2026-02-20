@@ -14,17 +14,17 @@ FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
     SECTION UI = "ButtonsDxe"
 }
 
-FILE DRIVER = 4138022f-06c7-4f79-9c94-7e33b511a4e7 {
-    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/DisplayDxe/DisplayDxe.depex
-    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/kebab/DisplayDxe/DisplayDxe.efi
-    SECTION UI = "DisplayDxe"
-}
+#FILE DRIVER = 4138022f-06c7-4f79-9c94-7e33b511a4e7 {
+#    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/DisplayDxe/DisplayDxe.depex
+#    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/kebab/DisplayDxe/DisplayDxe.efi
+#    SECTION UI = "DisplayDxe"
+#}
 
-FILE DRIVER = 68a710ab-a58d-4c0b-be1e-5f6ee2c36ad8 {
-    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/OplusProject/OplusProject.depex
-    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/kebab/OplusProject/OplusProject.efi
-    SECTION UI = "OplusProject"
-}
+#FILE DRIVER = 68a710ab-a58d-4c0b-be1e-5f6ee2c36ad8 {
+#    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/OplusProject/OplusProject.depex
+#    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/kebab/OplusProject/OplusProject.efi
+#    SECTION UI = "OplusProject"
+#}
 
 FILE DRIVER = 0D35CD8E-97EA-4F9A-96AF-0F0D89F76567 {
     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/kebab/UFSDxe/UFSDxe.depex
